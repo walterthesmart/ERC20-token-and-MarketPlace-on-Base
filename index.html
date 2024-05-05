@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace DApp</title>
+    <script src="./index.js" type="module"></script>  
+</head>
+<body>
+    <h1>Connect Wallet</h1>
+    <button id="connectButton">CONNECT</button>
+    <button id="balanceButton">Balance</button>
+
+    <h1>Marketplace</h1>
+    <h2>Create a Product</h2>
+    <input type="text" id="productName" placeholder="Product Name">
+    <input type="number" id="productPrice" placeholder="Product Price (ETH)">
+    <button id="createProduct">Create</button>
+
+    <h2>Purchase a Product</h2>
+    <input type="number" id="productId" placeholder="Product ID">
+    <input type="number" id="productPrice" placeholder="Product Price (ETH)">
+    <button id="purchaseProduct">Purchase</button>
+
+    <div id="productsList"></div> 
+</body>
+</html>
